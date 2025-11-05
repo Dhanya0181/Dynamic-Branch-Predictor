@@ -94,10 +94,9 @@ class BranchPredictorPAg {
 
             // Update
             if (useA2) {
-                // already implemented
                 pht[phtIdx] = taken ? (pred ? 3 : (pht[phtIdx]+1)) : (pred ? (pht[phtIdx]-1) : 0);
             } else {
-                // Implement Automaton A3
+                //  Automaton A3
                 switch (pht[phtIdx]) {
                     case 0: // Strong N
                         if (taken) pht[phtIdx] = 1;
