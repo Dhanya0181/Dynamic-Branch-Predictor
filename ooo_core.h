@@ -3,7 +3,7 @@
  * Copyright (C) 2010-2013 by The Board of Trustees of Stanford University
  *
  * This file is part of zsim.
- *
+ 
  * zsim is free software; you can redistribute it and/or modify it under the
  * terms of the GNU General Public License as published by the Free Software
  * Foundation, version 2.
